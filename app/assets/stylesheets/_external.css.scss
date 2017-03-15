@@ -1,6 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.mainbackground{
+  background-image:url(lime.jpg);
+}
+
 .headerstyling{
   border:5px double black;
   margin-top: 20px;
