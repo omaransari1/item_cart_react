@@ -6,11 +6,14 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    
+
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
   </head>
 
   <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#"><span class="areyounot">Are you not a cat person?</span><span class="giveus">Good! Give us your cat!</span></a>
+    </div>
     <%= yield %>
   </body>
 </html>
