@@ -56,10 +56,23 @@
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  background-image:url(fur.jpg);
+  background-image:image-url(fur.jpg);
   font-weight:bold;
   font-size:80px;
   font-family: 'Architects Daughter', cursive;
+}
+
+.headerstyling h1:hover span.catshelter{
+  display: none;
+}
+
+.headerstyling h1 span.meow{
+  display: none;
+
+}
+.headerstyling h1:hover span.meow{
+  display:inline;
+
 }
 
 .coolfont{
